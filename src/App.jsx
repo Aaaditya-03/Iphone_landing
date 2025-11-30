@@ -1,8 +1,10 @@
+import {Navbar , Hero} from './components';
 
 const App = () => {
   return (
-    <main className='flex-center h-screen'>
-        This is the landing Page
+    <main className='bg-black'>
+        <Navbar />
+        <Hero />
     </main>
   )
 }
